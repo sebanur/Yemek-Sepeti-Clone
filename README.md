@@ -1,17 +1,36 @@
-# React + Vite
+# Yemek Sepeti Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive food ordering web application inspired by popular food delivery platforms. Built with React and modern frontend technologies, the application allows users to browse restaurants, explore restaurant details, view products, and manage their shopping cart through an intuitive user interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Browse and list restaurants
+- View restaurant details and available products
+- Add products to the shopping cart and remove them
+- Manage application state using Redux
+- Handle asynchronous operations with Redux Thunk
+- Fetch data from a mock REST API
+- Navigate between pages using React Router DOM
+- Responsive and modern user interface
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React 19** — Component-based UI development
+- **Vite** — Fast development server and build tool
+- **Redux** — Centralized state management
+- **Redux Thunk** — Asynchronous Redux actions
+- **React Router DOM** — Client-side routing
+- **Axios** — HTTP requests and API integration
+- **Tailwind CSS 4** — Utility-first styling
+- **JSON Server** — Mock REST API
+- **Lucide React** — Icon library
 
-## Expanding the ESLint configuration
+## Project Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Yemek-Sepeti-Clone
+This project focuses on building a real-world food ordering experience while practicing component-based architecture, centralized state management, API integration, asynchronous data fetching, and modern frontend development practices.
+
+The application provides a structured foundation for restaurant browsing and cart management, combining reusable React components with Redux-powered state management and a responsive interface.
+
+## Preview
+
+![](yemek-sepeti-clone.gif)
